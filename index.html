@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jornada Saudável - Ebook Gratuito</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4fff8;
+      color: #333;
+    }
+    header {
+      background: url('header.jpg') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 3em;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .benefits, .depoimentos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .benefit, .depoimento {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .benefit img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta a {
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      transition: 0.3s ease;
+    }
+    .cta a:hover {
+      background: #43a047;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #4CAF50;
+      color: white;
+    }
+    .logo {
+      max-width: 180px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Jornada Saudável" class="logo" />
+    <h1>Transforme Seu Corpo e Mente em Apenas 7 Dias</h1>
+  </header>
+
+  <main class="container">
+    <section class="benefits">
+      <div class="benefit">
+        <img src="https://img.icons8.com/color/48/healthy-food.png" alt="Alimentação Saudável"/>
+        <h3>Alimentação Saudável</h3>
+        <p>Dicas simples e práticas para refeições equilibradas.</p>
+      </div>
+      <div class="benefit">
+        <img src="https://img.icons8.com/color/48/yoga.png" alt="Exercícios Leves"/>
+        <h3>Exercícios Leves</h3>
+        <p>Movimente-se com saúde e bem-estar, sem sair de casa.</p>
+      </div>
+      <div class="benefit">
+        <img src="https://img.icons8.com/color/48/water.png" alt="Hidratação"/>
+        <h3>Hidratação</h3>
+        <p>Aprenda a importância da água no processo de emagrecimento.</p>
+      </div>
+    </section>
+
+    <div class="cta">
+      <a href="https://wa.me/5521993397143?text=Ol%C3%A1%2C+me+envie+o+e-book+gr%C3%A1tis+de+emagrecimento+por+favor.">Adquirir e-book agora</a>
+    </div>
+
+    <section class="depoimentos">
+      <div class="depoimento">
+        <p>"Esse guia mudou minha forma de ver a saúde. Em poucos dias, já notei diferença no meu corpo e disposição!"</p>
+        <strong>Mariana L.</strong>
+      </div>
+      <div class="depoimento">
+        <p>"Achei que seria só mais um e-book, mas as dicas são práticas e fáceis. Emagreci 3kg na primeira semana!"</p>
+        <strong>Carlos M.</strong>
+      </div>
+      <div class="depoimento">
+        <p>"Já compartilhei com várias amigas. O conteúdo é ótimo, bem explicado e realmente ajuda."</p>
+        <strong>Fernanda R.</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Jornada Saudável. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
